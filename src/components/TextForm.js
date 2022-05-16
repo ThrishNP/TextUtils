@@ -22,9 +22,9 @@ export default function TextForm(props) {
 
     const handleCopy = () => {
         navigator.clipboard.writeText(text);
-        props.showAlert("Copied Text", "success");
+        props.showAlert("Copied is Text", "success");
     }
-
+    
     const handleRemoveSpaces = () => {
         let newText = text.split(/\s+/);
         setText(newText.join(" "));

@@ -31,7 +31,7 @@ let myStyle = {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                            TextUtils is a free to use website where you can Analyze your text as you want.
+                            TextUtils is a free to use website where you can Analyze your text as you want. And Convert it.
                         </div>
                     </div>
                 </div>

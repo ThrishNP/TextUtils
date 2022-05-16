@@ -39,7 +39,7 @@ function App() {
       <Router>
         <Navbar title="TextUtils" about="About" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
-        <div className="container my-3">
+        <div className="container my-2">
           <Routes>
             <Route exact path="/about" element={<About mode={mode} />}>
             </Route>
